@@ -1,6 +1,6 @@
 # https://code.google.com/codejam/contest/2974486/dashboard#s=p2
 
-FILENAME = "sample"
+FILENAME = "C-small-practice"
 
 import sys
 sys.stdin = open(FILENAME + ".in", 'r')
