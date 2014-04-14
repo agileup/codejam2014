@@ -1,6 +1,8 @@
 # Problem A. Magic Trick
 
-* link : https://code.google.com/codejam/contest/2974486/dashboard#s=p0
+https://code.google.com/codejam/contest/2974486/dashboard#s=p0
+
+### Problem
 
 Recently you went to a magic show. You were very impressed by one of the tricks, so you decided to try to figure out the secret behind it!
 
@@ -12,68 +14,64 @@ You decide to write a program to help you understand the magician's technique. T
 
 Your program should determine which card the volunteer chose; or if there is more than one card the volunteer might have chosen (the magician did a bad job); or if there's no card consistent with the volunteer's answers (the volunteer cheated).
 
-Solving this problem
+### Solving this problem
 
 Usually, Google Code Jam problems have 1 Small input and 1 Large input. This problem has only 1 Small input. Once you have solved the Small input, you have finished solving this problem.
 
-Input
+### Input
 
 The first line of the input gives the number of test cases, T. T test cases follow. Each test case starts with a line containing an integer: the answer to the first question. The next 4 lines represent the first arrangement of the cards: each contains 4 integers, separated by a single space. The next line contains the answer to the second question, and the following four lines contain the second arrangement in the same format.
 
-Output
+### Output
 
 For each test case, output one line containing "Case #x: y", where x is the test case number (starting from 1).
 
 If there is a single card the volunteer could have chosen, y should be the number on the card. If there are multiple cards the volunteer could have chosen, y should be "Bad magician!", without the quotes. If there are no cards consistent with the volunteer's answers, y should be "Volunteer cheated!", without the quotes. The text needs to be exactly right, so consider copying/pasting it from here.
 
-Limits
+### Limits
 
-1 ≤ T ≤ 100.
-1 ≤ both answers ≤ 4.
+1 ≤ T ≤ 100.  
+1 ≤ both answers ≤ 4.  
 Each number from 1 to 16 will appear exactly once in each arrangement.
 
+### Sample
 
 * Input
 
-```
-3
-2
-1 2 3 4
-5 6 7 8
-9 10 11 12
-13 14 15 16
-3
-1 2 5 4
-3 11 6 15
-9 10 7 12
-13 14 8 16
-2
-1 2 3 4
-5 6 7 8
-9 10 11 12
-13 14 15 16
-2
-1 2 3 4
-5 6 7 8
-9 10 11 12
-13 14 15 16
-2
-1 2 3 4
-5 6 7 8
-9 10 11 12
-13 14 15 16
-3
-1 2 3 4
-5 6 7 8
-9 10 11 12
-13 14 15 16
-```
+      3
+      2
+      1 2 3 4
+      5 6 7 8
+      9 10 11 12
+      13 14 15 16
+      3
+      1 2 5 4
+      3 11 6 15
+      9 10 7 12
+      13 14 8 16
+      2
+      1 2 3 4
+      5 6 7 8
+      9 10 11 12
+      13 14 15 16
+      2
+      1 2 3 4
+      5 6 7 8
+      9 10 11 12
+      13 14 15 16
+      2
+      1 2 3 4
+      5 6 7 8
+      9 10 11 12
+      13 14 15 16
+      3
+      1 2 3 4
+      5 6 7 8
+      9 10 11 12
+      13 14 15 16
 
 * Output
 
-```
-Case #1: 7
-Case #2: Bad magician!
-Case #3: Volunteer cheated!
-
-```
+      Case #1: 7
+      Case #2: Bad magician!
+      Case #3: Volunteer cheated!
