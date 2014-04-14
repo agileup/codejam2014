@@ -1,6 +1,6 @@
 # https://code.google.com/codejam/contest/2974486/dashboard#s=p3
 
-FILENAME = "D-small-attempt0"
+FILENAME = "D-large"
 
 import sys
 sys.stdin = open(FILENAME + ".in", 'r')
