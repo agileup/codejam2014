@@ -1,6 +1,6 @@
 # https://code.google.com/codejam/contest/2974486/dashboard#s=p0
 
-FILENAME = "sample"
+FILENAME = "A-small-attempt0"
 
 import sys
 sys.stdin = open(FILENAME + ".in", 'r')
